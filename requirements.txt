@@ -1,0 +1,8 @@
+# 先装 PyTorch 再装其余依赖。GPU 训练请按显卡驱动选 CUDA 版本：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# CPU 版直接 pip install torch 即可（训练会慢几十倍，但能跑）。
+torch>=2.0
+numpy>=1.23
+scipy>=1.9
+soundfile>=0.12
+sounddevice>=0.4.6
